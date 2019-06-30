@@ -1,0 +1,140 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../css/font/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../css/font/playfair/PlayfairDisplay-Bold.ttf);
+}
+
+header {
+    color: rgb(rgb(43, 16, 246));
+    top: 0;
+    left: 0px;
+    font-size: 20px;
+}
+
+#logofoto {
+    width: 60px;
+    height: 60px;
+    margin-left: 200px;
+    margin-top: 20px;
+    float: left;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+}
+
+nav a {
+    font-family: montserrat;
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+nav ul {
+    margin-left: 745px;
+    margin-right: 10px;
+}
+
+nav li {
+    display: block;
+    margin-left: 205px;
+    margin-top: 40px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#mainfoto {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    color: blue;
+    margin-top: 100px;
+}
+
+.container {
+    color: black;
+    font-size: 60px;
+}
+
+.centered {
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    font-family: playfair;
+    text-decoration: none;
+}
+
+.containerAccordion {
+    width: 800px;
+    margin: 0 auto;
+    background: rgb(176, 134, 216);
+    padding-left: 61px;
+    font-family: playfair;
+    text-decoration: none;
+}
+
+.ui-accordion-header {
+    display: block;
+    border: 3px solid black;
+    padding: 20px;
+    width: 700px;
+    text-align: left;
+}
+
+.ui-accordion-header-active {
+    color: blue;
+    border-color: blue;
+    padding: 20px;
+    width: 700px;
+    max-height: 200px;
+    text-align: left;
+}
+
+.ui-accordion-content {
+    text-align: center;
+}
+
+#btn {
+    background: purple;
+    color: white;
+    padding: 2px 2px;
+    display: inline-block;
+    margin: 4em 0;
+}
+
+#panel {
+    background: cornflowerblue;
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.vjs-big-play-button {
+    background-color: red;
+}
+
+.player-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: coral;
+    color: palegreen;
+    border-radius: 3px;
+}
+
+.player-btn:hover {
+    background: cadetblue;
+}
